@@ -95,6 +95,6 @@ function draw() {
     ball.velocityX=-1*ball.velocityX
   }
   fill("black")
-  text(mouseX+","+mouseY,mouseX,mouseY)  
+  //text(mouseX+","+mouseY,mouseX,mouseY)  
   drawSprites();
 }
