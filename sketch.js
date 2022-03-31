@@ -94,7 +94,7 @@ function draw() {
   if(ball.isTouching(computer)){
     ball.velocityX=-1*ball.velocityX
   }
-  fill("black")
+ // fill("black")
   //text(mouseX+","+mouseY,mouseX,mouseY)  
   drawSprites();
 }
